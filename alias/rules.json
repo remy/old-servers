@@ -1,8 +1,7 @@
 {
   "rules": [
     { "pathname": "/h2", "dest": "h2.remi.tech" },
-    { "pathname": "/h1-1", "dest": "h2.remi.tech" },
-    { "pathname": "/random", "dest": "0-9.isthe.link" },
+    { "pathname": "/h1-1", "dest": "h1-1.remi.tech:1337" },
     { "dest": "app.remi.tech" }
   ]
 }

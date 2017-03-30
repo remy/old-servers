@@ -2,6 +2,9 @@
   "dependencies": {
     "st": "^1.2.0"
   },
+  "now": {
+    "alias": "h2.remi.tech"
+  },
   "name": "2",
   "version": "1.0.0",
   "main": "index.js",

@@ -5,7 +5,8 @@
     "alias": "app.remi.tech"
   },
   "scripts": {
-    "start": "serve ./ -p ${PORT:-3000}"
+    "_start": "serve ./ -p ${PORT:-3000}",
+    "start": "node 1-1/"
   },
   "dependencies": {
     "serve": "^5.1.2"

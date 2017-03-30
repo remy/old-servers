@@ -6,3 +6,5 @@ http.createServer(st({
   index: 'index.html',
   url: 'h1-1/',
 })).listen(process.env.PORT || 1337);
+
+console.log(`running on ${process.env.PORT || 1337}`);

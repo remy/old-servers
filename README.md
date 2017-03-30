@@ -1,11 +1,13 @@
 # HTTP versions
 
-This project aims to make the following HTTP versions available to test against:
+This hack aims to make the following HTTP versions available to test against:
 
 - [0.9](https://www.w3.org/Protocols/HTTP/AsImplemented.html): http://http-0.9.remi.tech
 - [1.0](https://www.w3.org/Protocols/HTTP/HTTP2.html) ([RFC](https://tools.ietf.org/html/rfc1945)) (not implemented…yet)
 - [1.1](https://tools.ietf.org/html/rfc2616): http://http-1.1.remi.tech
 - [2.0](https://tools.ietf.org/html/rfc7540): https://http-2.remi.tech
+
+…and was written in 3 hours (mostly falling down rabbit holes around "the oldest server" and super old W3C documents).
 
 ## Background
 

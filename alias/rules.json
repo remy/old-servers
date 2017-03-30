@@ -1,6 +1,0 @@
-{
-  "rules": [
-    { "pathname": "/h1-1", "dest": "http-1.1.remi.tech" },
-    { "dest": "app.remi.tech" }
-  ]
-}

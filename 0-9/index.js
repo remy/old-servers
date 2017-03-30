@@ -19,7 +19,7 @@ const fake09 = url => new Promise(resolve => {
   if (url.endsWith('/')) {
     url += 'index.html';
   }
-  fs.readFile(`${__dirname}/public${url}`, 'utf8', (error, body) => {
+  fs.readFile(`${__dirname}/../public/${url}`, 'utf8', (error, body) => {
     console.log(`GET ${url} ${error ? '404' : '200'}`);
     if (error) {
       return resolve(erorrPage({ url, host }));

@@ -9,7 +9,8 @@
     "start": "node 1-1/"
   },
   "dependencies": {
-    "serve": "^5.1.2"
+    "serve": "^5.1.2",
+    "st": "^1.2.0"
   },
   "keywords": [],
   "author": "Remy Sharp",

@@ -51,3 +51,13 @@ server.listen(80);
 - HTTP 2 is using zeit.co
 - HTTP 1.1 is running on Heroku
 - HTTP 0.9 is running on an instance provisioned from scaleway.com (foolishly inside a [screen](https://remysharp.com/2015/04/27/screen) instance…which isn't too sensible)
+
+## The domain name
+
+There's a story behind that. Back in 2006 I scribbled notes in a pub with Julie to try to work out company names. Two remained after lots of ideas. [Left Logic](https://leftlogic.com) as my company is named today, and Remitech (the french spelling of my name…with "tech" added to the end).
+
+When I floated the name Remitech across a few friends, each and every one of them responded with:
+
+![Nope](http://i.imgur.com/qBsYuX5.gif)
+
+…so alas, Remitech was left to die. Except! Skip forward to 2017, I attend Render Conf and they have a parter deal for a _free_ `.tech` domain. So, yep, that's what you've got: remi.tech. And yup, I'll totally left it expire and die once the year of free .tech domain is up `¯\_(ツ)_/¯`.

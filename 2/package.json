@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "st": "^1.2.0"
+  },
+  "name": "2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

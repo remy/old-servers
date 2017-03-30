@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const erorrPage = require('./404');
 const parse = require('url').parse;
+const host = 'remi.tech';
 
 const clean = u => {
   let p = parse(u).pathname;
@@ -21,7 +22,7 @@ const fake09 = url => new Promise(resolve => {
   fs.readFile(`${__dirname}/public${url}`, 'utf8', (error, body) => {
     console.log(`GET ${url} ${error ? '404' : '200'}`);
     if (error) {
-      return resolve(erorrPage({ url, host: 'remi.tech' }));
+      return resolve(erorrPage({ url, host }));
     }
 
     return resolve(body);
@@ -55,6 +56,6 @@ server.on('error', (err) => {
   throw err;
 });
 
-server.listen(8124, () => {
+server.listen(process.env.PORT || 8124, () => {
   console.log('server bound');
 });

@@ -1,3 +1,5 @@
+_Note: the remi.tech domain has since lapsed (probably sensibly on my part), I might re-host one day, but for now, you'll need to host locally to try them out._
+
 # HTTP versions
 
 This hack aims to make the following HTTP versions available to test against:
